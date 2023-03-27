@@ -61,14 +61,24 @@
 }
 
 .seleccion{
-
-  display: flex;
-  justify-content: right;
-  font-family: "Montserrat";
-  text-decoration: none;
-  color: white;
   position: absolute;
-  align-items: flex-end;
-  right: 0;
-  top: 0;
+  right: 20px;
+  top: 30px;
+}
+
+.seleccion select{
+  background: rgba(0,0,0,0);
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.seleccion select:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #a9a9a9;
 }
