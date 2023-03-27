@@ -16,7 +16,7 @@
     "DESCRIPCIÓN1": "Nós os desafiamos a se apropriar de seu aprendizado, sair de sua zona de conforto e gerar suas próprias soluções aplicáveis, econômicas e inovadoras.",
     "DESCRIPCIÓN2": "!Prepare-se para potencializar suas ideias com tecnologia!",
     "CASOS": "CASOS DE USO",
-    "EMPRESARIAL": "Capture the Flag (CTF): Cybersecurity",
+    "EMPRESARIAL": "Capture a bandeira (CTF): segurança cibernética",
     "EDUCATIVO": "EDUCACIONAL",
     "RESPONSABILIDAD": "RESPONSABILIDADE SOCIAL",
     "SOSTENIBILIDAD": "SUSTENTABILIDADE",
@@ -66,10 +66,10 @@
         "SUSCRIPCION": "Assinatura perpétua dos cursos aprendeconjoe.com",
         "VOUCHER": "Voucher de Certificação SAP"
     },
-    
+
     "SEGUNDO":{
         "2er": "2er lugar",
-        "SECOND": "Distintivo de segundo lugar",         
+        "SECOND": "Distintivo de segundo lugar",
         "CERTIFICACION": "Certificação de participação.",
         "BECAS": "Bolsas Flex - UPC.",
         "SUSCRIPCION": "Assinatura perpétua dos cursos aprendeconjoe.com",
@@ -78,7 +78,7 @@
 
     "TERCERO":{
         "3er": "3er lugar",
-        "THIRD": "Distintivo de tercer lugar.",         
+        "THIRD": "Distintivo de tercer lugar.",
         "CERTIFICACION": "Certificação de participação.",
         "VOUCHER": "Voucher de Certificação SAP"
     },
@@ -104,7 +104,7 @@
         "DESCRIPCION_5": "estudantes universitários, aplicando diferentes ferramentas e tecnologias, incluindo SAP Analytics Cloud,",
         "DESCRIPCION_6": "Front-end (SAP UI 5), Back-end (Cloud Foundry Runtime), Chatbot, iRPA, Appgyver, Business Case e",
         "DESCRIPCION_7": "Integração.",
-        
+
         "DESCRIPCION_8": "Dentro do roteiro, serão realizadas 8 Tech Talks:",
         "DESCRIPCION_9": "Design Thinking, SAP Cloud Application Programming Model, Elevator pitch, SAP Analytics Cloud, Business Model Canvas, Integration, iRPA e Chatbot, isso com o objetivo de fornecer as ferramentas necessárias aos participantes antes do evento.",
         "DESCRIPCION_10": "Os participantes devem trabalhar em equipes de 3 a 5 pessoas. Terminado o evento, as soluções propostas serão avaliadas para a escolha de 3 iniciativas vencedoras, com possibilidade de serem desenvolvidas a nível empresarial/social.",
@@ -140,7 +140,7 @@
         "DNIDEA_1": "Não se preocupe, a maioria das pessoas não tem isso para começar! Nesse caso, você pode entrar em contato com o coordenador de sua universidade clicando em",
         "DNIDEA_2": "aquí",
         "DNIDEA_3": "e ele vai te ajudar a formar uma equipe multidisciplinar com pessoas que também não tem equipe."
-        
+
     },
 
     "TECNOLOGIAS":{
@@ -171,7 +171,6 @@
         "RODRIGO": "Ativação do ecossistema SAP BTP ",
         "TRODRIGO1": "Líder de Execução para LAC",
         "TRODRIGO2": " APLICATIVO SAP CLOUD",
-        "TRODRIGO3": "MODELO DE PROGRAMAÇÃO" 
+        "TRODRIGO3": "MODELO DE PROGRAMAÇÃO"
     }
 }
-  
