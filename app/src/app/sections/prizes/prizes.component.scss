@@ -1,0 +1,149 @@
+.ctn-prizes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.ctn-img{
+  width:35vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+    margin-top: 2vw;
+    font-family: "Gotham";
+    font-size: 2.5vw;
+    letter-spacing: 1vw;
+    color: rgb(16, 10, 77);
+    text-align: center;
+  }
+  .arrow-down {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .icon-display {
+    transform: scale(3);
+    color: rgb(16, 10, 77);
+  }
+  p{
+    font-family:'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(16, 10, 77);
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.secondary-prizes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.secondary-prizes mat-card{
+  padding: 20px;
+  border-radius: 20px;
+  width: 28.5%;
+  margin-bottom: 20px;
+}
+.ctn-prizes mat-card {
+
+  padding: 10px;
+  border-radius: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+h2 {
+  margin-top: 2vw;
+  font-family: "Gotham";
+  font-size: 2.5vw;
+  letter-spacing: 1vw;
+  color: #00294c;
+  text-align: left;
+}
+h4{
+  font-family: 'Open Sans Light';
+  font-weight: 700;
+  color: #00294c;
+}
+h3{
+  margin-top: 20px;
+  font-family: 'Open Sans Light';
+  font-weight: 700;
+  
+  color: #00294c;
+}
+li{
+  font-family:'Montserrat';
+  font-weight: 500;
+}
+@media (max-width: 800px){
+
+  h2 {
+      font-size: 6vw;
+      margin-bottom: 5px;
+  }
+  p{
+    font-size: 3vw;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  img {
+    width: 80vw;
+  }
+  h2 {
+    font-size: 5vw;
+  }
+  h4{
+    font-size: 4vw
+  }
+  li{
+    font-size: 3vw
+  }
+  .ctn-schedule {
+    margin-left: 10vw;
+    margin-top: 20px;
+    width: 80vw;
+  }
+  .icon-display {
+    transform: scale(2);
+    color: #00294c;
+  }
+  .ctn-prizes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+  .secondary-prizes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .secondary-prizes mat-card {
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .ctn-prizes mat-card {
+
+    padding: 10px;
+    border-radius: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+}

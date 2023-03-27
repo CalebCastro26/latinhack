@@ -1,0 +1,31 @@
+h2 {
+    margin-top: 2vw;
+    font-family: "Gotham";
+    font-size: 2.5vw;
+    letter-spacing: 1vw;
+    color: #00294c;
+    text-align: left;
+  }
+  .arrow-down {
+    display: flex;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon-display {
+    transform: scale(2.5);
+    color: #00294c;
+  }
+  .ctn-faq{
+    margin-left: 10vw;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 80vw;
+  }
+  mat-panel-title{
+    color: #00294c;
+    font-family: "Open Sans Light";
+  }
+  p{
+    font-family: "Montserrat";
+  }

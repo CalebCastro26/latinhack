@@ -1,0 +1,75 @@
+.ctn{
+    padding: 200px 0px;
+    background-image: url("../../../assets/Imagenes/03.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 80px;
+
+}
+.ctn-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    margin-top: 2vw;
+    font-family: 'Gotham';
+    font-size: 2.5vw;
+    letter-spacing: 1vw;
+    line-height: 1;
+    color: black;
+    text-align: left;
+    text-align: center;
+}
+
+.arrow-down{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-display{
+    transform: scale(3);
+    color: black;
+}
+.ctn-text{
+    margin-left: 40px;
+    width:38vw;
+}
+p{
+    font-family:'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-left: 20px;
+    
+}
+@media (max-width: 800px) {
+    .ctn{
+        padding: 8vw;
+        background-size: 200vw;
+        background-position: left top;
+        display: flex;
+        justify-content: center;
+    }
+    .ctn-text{
+        margin-left: 0;
+       margin-top: 2vw;
+        width:60vw;
+    }
+    h2 {
+      font-size: 6vw;
+      margin-bottom: 5px;
+    }
+    p{
+        font-size: 2vw;
+        margin-left: 0;
+    }
+  
+  }
+  @media (max-width: 500px){
+    p{
+        font-size: 2.5vw;
+    }
+  }

@@ -1,0 +1,174 @@
+h2{
+    margin-top: 2vw;
+    font-family: 'Gotham';
+    font-size: 3.5vw;
+    letter-spacing: 1vw;
+    color: rgb(16, 10, 77);
+    text-align: center;
+}
+a{
+    width: fit-content;
+}
+h3{
+    margin-top: 2vw;
+    font-family: 'Gotham';
+    font-size: 2.5vw;
+    letter-spacing: 1vw;
+    color: rgb(16, 10, 77);
+    text-align: center;
+}
+.arrow-down{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-display{
+    transform: scale(3);
+    color: rgb(16, 10, 77);
+}
+.ctn-organizers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.ctn-organizers img{
+  width:16vw;
+  height: 6.5vw;
+    padding: 5vw 4vw;
+    border-radius: 20px;
+     border: 1px solid rgb(189, 189, 189); 
+  
+    margin-bottom: 2vw;
+ 
+}
+#upcImg{
+    width: 20vw;
+    height: 6vw;
+    padding: 5.3vw 2vw;
+}
+
+#delawareImg{
+    width: 20vw;
+    height: 6vw;
+    padding: 5.3vw 2vw;
+}
+#cstiImg{
+    width: 17.5vw;
+    height: 8vw;
+    padding: 4.25vw 3vw;
+}
+#aluraLogo{
+    width:10vw
+}
+#cstiLogo2{
+    width:14vw;
+    height: 10.5vw;
+}
+#joeDayzLogo{
+    width:16vw;
+    height: 14vw;
+  
+}
+#sapLogo{
+    width:12vw;
+    height: 6vw;
+    
+  
+}
+.ctn-sponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ctn-sponsors img{
+    width: 15vw;
+    padding: 50px 10px;
+    height: 7vw;
+    border-radius: 20px;
+}
+@media (max-width: 1100px) {
+    h2 {
+      font-size: 6vw;
+      margin-bottom: 5px;
+    }
+    h3{
+      margin-top: 5px;
+      font-size: 4vw;
+    }
+    .ctn-organizers{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vw;
+    }
+    .ctn-organizers img{
+        width: 60%;
+        padding: 6vw 8vw;
+        height: 13vw;
+        border-radius: 15px;
+        margin-bottom: 2vw;
+     
+    }
+    
+    #upcImg{
+        width:60%;
+        padding: 7vw 8vw;
+        height: 9vw;
+    }
+    #cstiImg{
+        width:60%;
+        padding: 5vw 8vw;
+        height: 14vw;
+    } 
+    .ctn-sponsors{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80vw;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ctn-sponsors img{
+        width: 100%;
+        height: 12vw;
+        padding: 2vw 1vw;
+        border-radius: 10px;
+    }
+    #aluraLogo{
+        width: 100%;
+    }
+    #joeDayzLogo{
+        width: 100%;
+        height: 17vw;
+      
+    }
+    #cstiLogo2{
+        width: 100%;
+        height: 18vw;
+      
+    }
+    #sapLogo{
+        width: 100%;
+        height: 10vw;
+        
+      
+    }
+  
+  }

@@ -1,0 +1,237 @@
+.arrow-down {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-dialog{
+    margin-top: 20px;
+
+  }
+  /* Absolute Center Spinner */
+.loading-indicator {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading-indicator:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+  .btn-dialog button{
+    background-color: #00294c;
+    color: white;
+  }
+  .flag-img{
+    width: 15px;
+    height: auto;
+    margin-right: 10px;
+  }
+  table{
+    box-shadow: none;
+    border: #00294c 1px solid;
+  }
+  th{
+    font-family:'Montserrat';
+  font-weight: 500;
+ color: #00294c;
+  }
+ .ctn-table{
+   width: 90%;
+ }
+
+ .challenge{
+   margin-top: 40px;
+   width: 90%;
+
+ }
+ .challenge form{
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+
+ }
+
+
+ .table-empty{
+  border: 0.5px solid  rgb(16, 10, 77);
+  border-top: none;
+   width: 100%;
+ }
+ form{
+   width: 100%;
+ }
+  table {
+    width: 100%;
+  }
+  .team{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+
+  }
+  .team div form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+  }
+  .team form div mat-form-field{
+    margin-right: 2vw;
+  }
+
+  .toggle{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+  }
+  .two-rows{
+    width: 100%;
+  }
+  .two-rows mat-form-field{
+    width: 50%;
+  }
+  .three-rows{
+    width: 100%;
+  }
+  .three-rows mat-form-field{
+    width: 30%;
+  }
+  .add-btn{
+    margin-top: 3vw;
+  }
+  .icon-display {
+    transform: scale(3);
+    color: rgb(16, 10, 77);
+  }
+  .ctn-inscription{
+      margin-left: 80px;
+      margin-top: 20px;
+  }
+  h2 {
+    margin-top: 2vw;
+    font-family: "Gotham";
+    font-size: 2.5vw;
+    letter-spacing: 1vw;
+    color: rgb(16, 10, 77);
+    text-align: left;
+  }
+  .ctn-universities{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+width:90vw;
+      justify-content: left;
+  }
+  .ctn-universities mat-card{
+   margin: 15px;
+      display: flex;
+      width: 180px;
+      align-items: center;
+      padding-right: 0;
+      justify-content: center;
+      border-radius: 30px;
+      -webkit-box-shadow: 9px 10px 6px -4px rgba(166,166,166,0.84);
+box-shadow: 9px 10px 6px -4px rgba(166,166,166,0.84);
+  }
+  .ctn-universities mat-card:hover{
+cursor: pointer;
+
+}
+h3{
+  margin-top: 20px;
+  font-family:'Gotham';
+  font-weight: 700;
+  font-size: 1.7vw;
+  color: #00294c;
+  margin-bottom: 8px;
+}
+p{
+  font-family:'Montserrat';
+  font-weight: 500;
+ color: #00294c;
+
+}
+
+@media (max-width: 800px) {
+  .challenge{
+    width: 10%;
+  }
+  .challenge form{
+   width: 10%;
+
+  }
+  .team{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+
+  }
+  th.mat-header-cell{
+    padding-right: 24px;
+  }
+  .ctn-table{
+    margin-top: 5vw;
+    width: 100%;
+  }
+  .table-empty{
+
+     border: none;
+   }
+  .ctn-table-scroll{
+
+    width: 100%;
+    overflow: scroll;
+  }
+  h2 {
+    font-size: 7vw;
+    margin-bottom: 5px;
+  }
+  h3{
+    margin-top: 5px;
+    font-size: 5vw;
+  }
+  .ctn-schedule {
+    margin-left: 10vw;
+    margin-top: 20px;
+    width: 80vw;
+  }
+  .ctn-inscription{
+    width:80vw;
+    margin-left: 30px;
+  }
+  .icon-display {
+    transform: scale(2);
+    color: #00294c;
+  }
+  .ctn-universities{
+    width: 80vw;
+  }
+  .ctn-universities mat-card{
+    width: 40%;
+  }
+  .university-logo{
+    width:80%;
+  }
+
+}

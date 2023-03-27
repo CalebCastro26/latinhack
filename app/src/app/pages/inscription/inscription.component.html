@@ -1,0 +1,163 @@
+<app-secondary-header></app-secondary-header>
+<div *ngIf="loadingSpinner" class="loading-indicator">
+    <mat-progress-spinner mode="indeterminate" color="accent"></mat-progress-spinner>
+  </div>
+<div class="ctn-inscription">
+    <div class="arrow-down">
+        <button mat-icon-button>
+            <mat-icon class="icon-display">arrow_drop_down</mat-icon>
+        </button>
+    </div>
+    <h2>{{'INSCRIPCIONES' | translate}}</h2>
+
+    <div class="challenge">
+        <br><br><br>
+        <mat-divider></mat-divider>
+      <form [formGroup]="registraFormInscription">
+
+        <mat-form-field appearance="fill">
+          <mat-label>Nombre del equipo (*)</mat-label>
+          <input  formControlName="nombreEquipo" matInput>
+      </mat-form-field>
+
+
+      <mat-form-field appearance="fill">
+          <mat-label>Universidad (*) </mat-label>
+          <mat-select formControlName="universidadId" (selectionChange)="selectUniversidad($event)">
+              <mat-option *ngFor="let universidad of universities"  [value]="universidad.id">
+                  {{universidad.nombre}}
+              </mat-option>
+            </mat-select>
+      </mat-form-field>
+
+
+      <mat-form-field appearance="fill">
+          <mat-label>Evento (*)</mat-label>
+          <mat-select formControlName="eventoId" (selectionChange)="selectEvento($event)">
+              <mat-option *ngFor="let evento of eventos" [value]="evento.id">
+                {{evento.nombreEvento}}
+              </mat-option>
+            </mat-select>
+      </mat-form-field>
+        </form>
+    </div>
+
+    <!--Añadir integrante-->
+
+   <div class="ctn-table">
+
+        <p>Escoge a tus integrantes (1-5)</p>
+        <mat-divider></mat-divider>
+        <div class="btn-dialog">
+            <button mat-raised-button (click)="addParticipantInscription()">
+                <mat-icon>add</mat-icon>Añadir integrante
+            </button>
+        </div>
+        <br>
+
+
+        <div class="ctn-table-scroll">
+            <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+                 <!--Note that these columns can be defined in any order.
+                          The actual rendered columns are set as a property on the row definition" -->
+
+                 <ng-container matColumnDef="position">
+                    <th mat-header-cell *matHeaderCellDef> Nombres </th>
+                    <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                </ng-container>
+
+
+        <ng-container matColumnDef="weight">
+                    <th mat-header-cell *matHeaderCellDef> Carrera </th>
+                    <td mat-cell *matCellDef="let element"> {{element.career}} </td>
+                </ng-container>
+
+
+                <ng-container matColumnDef="symbol">
+                    <th mat-header-cell *matHeaderCellDef> Team Leader </th>
+                    <td mat-cell *matCellDef="let element">
+                        <div *ngIf="element.teamLeader === '1'; else elseBlock">
+                            <mat-icon>done</mat-icon>
+                        </div>
+                        <ng-template #elseBlock></ng-template>
+                    </td>
+                </ng-container>
+
+                <ng-container matColumnDef="edit">
+                    <th mat-header-cell *matHeaderCellDef> Editar </th>
+                    <td mat-cell *matCellDef="let element; let i = index;">
+                        <button mat-icon-button (click)="editParticipantInscription(i)" color="primary"
+                            aria-label="Example icon button with a heart icon">
+                            <mat-icon>edit</mat-icon>
+                        </button>
+                    </td>
+                </ng-container>
+
+                <ng-container matColumnDef="delete">
+                    <th mat-header-cell *matHeaderCellDef> Eliminar </th>
+                    <td mat-cell *matCellDef="let element; let i = index;">
+                        <button mat-icon-button (click)="delete(i)" color="warn"
+                            aria-label="Example icon button with a heart icon">
+                            <mat-icon>delete</mat-icon>
+                        </button>
+                    </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+            <div class="table-empty" *ngIf="dataSource.length === 0">
+                <br>
+                <p style="color: rgb(102, 102, 102); font-size:small;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aún no hay integrantes
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+   <!--Añadir integrante-->
+
+
+   <!--Desafio-->
+   <div class="challenge">
+        <p>Escoge tu desafío. Puedes revisar los casos de uso <a href="/useCases" target="_blank">aquí</a></p>
+        <mat-divider></mat-divider>
+        <form [formGroup]="registraFormInscription">
+          <mat-form-field appearance="fill">
+
+            <mat-label>Desafío elegido (*)</mat-label>
+              <mat-select formControlName="desafioId" (selectionChange)="selectDesafio($event)">
+                  <mat-option *ngFor="let desafio of desafios"  [value]="desafio.id">
+                   {{desafio.tituloDesafio}}
+                  </mat-option>
+                </mat-select>
+          </mat-form-field>
+
+           <mat-form-field appearance="fill">
+              <mat-label>Título de la solución (*)</mat-label>
+             <input formControlName="tituloSolucion" matInput>
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+              <mat-label>Detalle de la solución (*)</mat-label>
+             <textarea formControlName="descripcionSolucion" matInput></textarea>
+          </mat-form-field>
+        </form>
+    </div>
+    <div>
+        <button mat-raised-button color="warn" style="margin-bottom: 20px;" (click)="inscription()"><mat-icon>task</mat-icon>&nbsp;INSCRIBIRSE</button>
+
+    </div>
+
+    <!--
+      <h3>Representante por universidad</h3>
+    <p>Si deseas participar, ponte en contacto con un representante universitario.</p>
+    <div class="ctn-universities">
+        <mat-card *ngFor="let university of universityCards" (click)="abrirDialogo(university)">
+            <img class="university-logo"src='{{ university.image }}' >
+        </mat-card>
+    </div>
+    -->
+</div>
+<app-footer></app-footer>

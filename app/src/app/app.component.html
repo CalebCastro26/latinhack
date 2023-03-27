@@ -1,0 +1,10 @@
+<div class="seleccion">
+    <select #langSelect (change)="changeLang(langSelect.value)">
+        <option value="es-ES">Español</option>  
+        <option value="pt-BR">Portugués</option>
+    </select>  
+</div>
+
+<app-animation></app-animation>
+<router-outlet></router-outlet>
+

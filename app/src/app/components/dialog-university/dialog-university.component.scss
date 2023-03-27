@@ -1,0 +1,33 @@
+h1{
+    font-family: "Gotham";
+    color: rgb(16, 10, 77);
+}
+p{
+    font-family: "Montserrat";
+
+}
+h2{
+    color: rgb(16, 10, 77);  
+    font-family: 'Open Sans Light';
+}
+h3{
+    color: rgb(16, 10, 77);  
+    font-family: 'Montserrat';
+}
+.ctn-dialog{
+    width:70vw;
+}
+.ctn-university-logo{
+    display: flex;
+    flex-direction: row;
+    justify-self:flex-start;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+@media (max-width: 500px){
+    .ctn-university-logo{
+        display: flex;
+        flex-direction: column;
+
+    }
+}

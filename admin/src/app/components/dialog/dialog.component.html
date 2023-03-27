@@ -1,0 +1,27 @@
+<h2 mat-dialog-title>Detalle del equipo</h2>
+<mat-dialog-content class="mat-typography">
+
+<mat-card *ngFor="let member of members; let i = index">
+
+    <b><h3> {{i + 1}}. {{member.fullName}}</h3></b>
+    <p><b>Email participante</b>: {{member.email}}</p>
+    <p> <b>Carrera</b>: {{member.career}}</p>
+    <p><b>País de la universidad</b>: {{member.country}}</p>
+    <p><b>Correo Coordinador o Director de carrera/programa</b>: {{member.directorEmail}}</p>
+    <p><b>Nombre Coordinador o Director de carrera/programa</b>:{{member.directorName}}</p>
+  
+   
+    <p><b>Es team leader</b>: {{member.leader}}</p>
+    <p><b>LinkedIn</b>: {{member.linkedIn}}</p>
+    <p><b>Universidad</b>: {{member.university}}</p>
+</mat-card>
+
+
+
+   
+</mat-dialog-content>
+<div mat-dialog-actions>
+    <button mat-button (click)="close()">Cerrar</button>
+</div>
+
+

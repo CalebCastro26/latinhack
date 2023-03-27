@@ -1,0 +1,119 @@
+.arrow-down {
+    display: flex;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    margin-top: 2vw;
+    width: 35vw;
+  }
+
+
+  .icon-display {
+    transform: scale(2.5);
+    color: #00294c;
+  }
+  .ctn-img{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+  }
+  .ctn-schedule{
+      margin-left: 80px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 90vw;
+  }
+  .ctn-prizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .secondary-prizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .secondary-prizes mat-card{
+    padding: 20px;
+    border-radius: 20px;
+    width: 28.5%;
+    margin-bottom: 20px;
+  }
+  .ctn-prizes mat-card {
+
+    padding: 10px;
+    border-radius: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin-top: 2vw;
+    font-family: "Gotham";
+    font-size: 2.5vw;
+    letter-spacing: 1vw;
+    color: #00294c;
+    text-align: left;
+  }
+  h4{
+    font-family: 'Open Sans Light';
+    font-weight: 700;
+    color: #00294c;
+  }
+  h3{
+    margin-top: 20px;
+    font-family: 'Open Sans Light';
+    font-weight: 700;
+    
+    color: #00294c;
+  }
+  li{
+    font-family:'Montserrat';
+    font-weight: 500;
+  }
+  @media (max-width: 800px) {
+    img {
+      width: 80vw;
+    }
+    h2 {
+      font-size: 5vw;
+    }
+    .ctn-schedule {
+      margin-left: 10vw;
+      margin-top: 20px;
+      width: 80vw;
+    }
+    .icon-display {
+      transform: scale(2);
+      color: #00294c;
+    }
+    .ctn-prizes{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  
+    }
+    .secondary-prizes{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  
+    }
+    .secondary-prizes mat-card {
+
+      padding: 10px;
+      border-radius: 20px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .ctn-prizes mat-card {
+
+      padding: 10px;
+      border-radius: 20px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+  }

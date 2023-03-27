@@ -1,0 +1,61 @@
+.ctn-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vw 5vw;
+    justify-content: space-evenly;
+    height: -1%;
+}
+
+.btn{
+    text-decoration: #fff;
+    height: 10%;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 50%;
+}
+
+
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+    
+}
+
+.logo:hover{
+cursor: pointer;
+}
+.ctn-links a{
+    text-decoration: none;
+    color: white;
+}
+.ctn-links{
+    width: 80%;
+    display: flex;
+    font-size: 1vw;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-family: "Montserrat";
+    letter-spacing: 0.3vw;
+    font-weight: 300;
+
+}
+
+.seleccion{
+    display: flex;
+    justify-content: right;
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: white;
+    background: transparent;
+}
+
+
+

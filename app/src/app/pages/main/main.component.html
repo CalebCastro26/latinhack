@@ -1,0 +1,32 @@
+
+<div class="ctn-main">
+    <app-header></app-header>
+    <app-third-header></app-third-header>   
+    <h1 class="title">U LATIN HACK 2023</h1>
+    <h2 class="subtitle">{{'CYBERSECURITY' | translate}}</h2>
+    <h3 class="dates">{{'PERIODO' | translate}}</h3>
+    <div class="ctn-buttons">
+        <button (click)="openDialog()" class="play-button" mat-fab color="basic" >
+            <mat-icon class="icon-display">play_arrow</mat-icon>
+        </button>
+        <div class="ctn-margin border-inscription">
+            <button [routerLink]="['inscription']"  class="btn-inscription" mat-button>{{'INSCRÍBETE' | translate}}</button>
+        </div>
+
+    </div>
+</div>
+
+<div id="btn-up">
+    <div class="example-button-container">
+        <button mat-mini-fab color="warn" (click)="toTheTop()">
+          <mat-icon>expand_less</mat-icon>
+        </button>
+      </div>
+</div>
+<app-organizers></app-organizers>
+<app-who-we-are></app-who-we-are>
+<app-use-cases></app-use-cases>
+<app-tech-talks></app-tech-talks>
+<app-universities></app-universities>
+<app-prizes></app-prizes>
+<app-footer></app-footer>

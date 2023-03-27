@@ -1,0 +1,46 @@
+<app-secondary-header></app-secondary-header>
+    <div class="ctn-use-cases">
+        <div class="arrow-down">
+            <button mat-icon-button>
+                <mat-icon class="icon-display">arrow_drop_down</mat-icon>
+            </button>
+        </div>
+        <h2>CASOS DE USO</h2>
+    
+        <div class="ctn-cases">
+            <div class="case1">
+                <img class="ctn-icon" src="../../../assets/Imagenes/Iconos Hackaton_Mesa de trabajo 1.png">
+                <h3>{{'EMPRESARIAL' | translate}}</h3>
+                <button mat-flat-button (click)="openDialog(0)">{{'VER' | translate}}</button>
+                <br>
+                <mat-icon>arrow_drop_down</mat-icon>
+            </div>
+            <div id="case2" class="case1">
+                <img class="ctn-icon"  src="../../../assets/Imagenes/Iconos Hackaton-02.png">
+                <h3>{{'EDUCATIVO' | translate}}</h3>
+                <button mat-flat-button (click)="openDialog(1)">{{'VER' | translate}}</button>
+                <br>
+                <mat-icon>arrow_drop_down</mat-icon>
+            </div>
+            <div id="case3" class="case1">
+                <img class="ctn-icon" src="../../../assets/Imagenes/Iconos Hackaton-03.png">
+                <h3 >{{'RESPONSABILIDAD' | translate}}</h3>
+                <button id="buttonSocialResponsability" mat-flat-button (click)="openDialog(2)">{{'VER' | translate}}</button>
+                <br>
+                <mat-icon>arrow_drop_down</mat-icon>
+            </div>
+            <div id="case4" class="case1">
+                <img class="ctn-icon"  src="../../../assets/Imagenes/Iconos Hackaton-04.png">
+                <h3>{{'SOSTENIBILIDAD' | translate}}</h3>
+                <button mat-flat-button (click)="openDialog(3)">{{'VER' | translate}}</button>
+                <br>
+                <mat-icon>arrow_drop_down</mat-icon>
+            </div>
+    
+        </div>
+        <div id="ctn-border">
+    
+        </div>
+    </div>
+    <br><br>
+<app-footer></app-footer>

@@ -1,0 +1,198 @@
+.ctn-main {
+    background-image: url("../../../assets/Imagenes/Logos\ y\ Portadas_Mesa\ de\ trabajo\ 1.png");
+    background-size: 100% ;
+    color: white;
+    text-align: center; 
+    align-items: center;
+    height: 55vw;
+}
+app-third-header{
+    display: none;
+}
+#btn-up{
+    display: none;
+}
+.ctn-section {
+    width: 100%;
+}
+.ctn-margin{
+    margin-top: 20px;
+}
+.ctn-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    margin-top: 8vw;
+    font-family: 'Gotham';
+    letter-spacing: 1.5vw;
+    font-size: 5.4vw;
+}
+.subtitle{
+    margin-top: 2vw;
+    font-family: 'Gotham';
+    font-size: 2.1vw;
+    letter-spacing: 0.3vw;
+}
+.dates{
+    margin-top: 1vw;
+    font-family: 'Open Sans Light';
+    font-size: 1.5vw;
+    letter-spacing: 0.3vw;
+}
+.play-button{
+    width: 6vw;
+    height: 6vw;
+}
+.icon-display{
+    transform: scale(3);
+    color: #00294c;
+}
+.btn-inscription{
+    font-size: 2vw;
+    color: rgb(46, 38, 136);
+    letter-spacing: 0.1vw;
+    font-family: 'Open Sans Light';
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px 40px;
+}
+.border-inscription{
+  padding: 10px;
+    border-radius: 50px;
+    border: 1px solid white ;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+@media (max-width: 1100px) {
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:190px;
+        right:10px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+    #btn-up{
+        display: block;
+        position: fixed;
+
+        right:0;
+        padding: 10px;
+        z-index: 5000;
+    }
+    #btn-up button{
+        width: 60px;
+    height: 60px;
+ 
+    }
+    app-header{
+        display: none;
+    }
+
+    app-third-header{
+        display: flex;
+        background-image: none;
+    }
+    .play-button{
+        width: 13vw;
+        height: 13vw;
+    }
+    .btn-inscription{
+        font-size: 3vw;
+        color: rgb(46, 38, 136);
+        letter-spacing: 0.1vw;
+        font-family: 'Open Sans Light';
+        background-color: white;
+        border-radius: 50px;
+        padding: 10px 20px;
+    }
+    .ctn-main{
+        height: 110vw;
+        background-size:cover;
+        background-position: center top;
+    }
+    .title{
+        margin-top: 3vw;
+        font-family: 'Gotham';
+        letter-spacing: 1.5vw;
+        font-size: 8vw;
+        line-height: 1;
+    }
+    .subtitle{
+      font-size: 3vw;
+      margin-bottom: 5px;
+    }
+    .dates{
+      margin-top: 5px;
+      font-size: 2vw;
+    }
+    .icon-display {
+      transform: scale(2);
+      color: #00294c;
+    }
+
+  
+  }
+  @media (max-width: 500px){
+
+    .ctn-main{
+        height: 180vw;
+
+    }
+    .play-button{
+        width: 23vw;
+        height: 23vw;
+    }
+    .title{
+        margin-top: 3vw;
+        font-family: 'Gotham';
+        letter-spacing: 1.5vw;
+        font-size: 10vw;
+        line-height: 1;
+    }
+    .subtitle{
+      font-size: 5vw;
+      margin-bottom: 5px;
+    }
+    .dates{
+      margin-top: 5px;
+      font-size: 3vw;
+    }
+    .btn-inscription{
+        font-size: 5vw;
+        color: rgb(46, 38, 136);
+        letter-spacing: 0.1vw;
+        font-family: 'Open Sans Light';
+        background-color: white;
+        border-radius: 50px;
+        padding: 5px 10px;
+    }
+  }

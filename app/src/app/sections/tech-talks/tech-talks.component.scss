@@ -1,0 +1,142 @@
+.ctn-tech{
+    margin-top: 40px;
+}
+.title{
+  margin-bottom: 4vw;
+}
+a{
+  text-decoration: none;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+    margin-top: 2vw;
+    margin-bottom: 5w;
+    font-family: "Gotham";
+    font-size: 2.5vw;
+    letter-spacing: 1vw;
+    color: rgb(16, 10, 77);
+    text-align: center;
+  }
+  img{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h3{
+    font-family: "Gotham";
+    font-size: 1vw;
+    color: rgb(16, 10, 77);
+    margin-bottom: 1vw;
+  }
+  p{
+      font-family: "Montserrat";
+      font-size: 0.8vw;
+      letter-spacing: 0.3vw;
+      word-wrap: break-word;
+      width:90%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  h4{
+    font-family: "Open Sans Light";
+    color: rgb(16, 10, 77);
+    font-size: 1vw;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .arrow-down {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .icon-display {
+    transform: scale(3);
+    color: rgb(16, 10, 77);
+  }
+  .ctn-talks{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90vw;
+      margin-left: auto;
+      margin-right: auto;
+  }
+ 
+  .ctn-talks div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 20%;
+    text-align: left;
+  }
+  @media (max-width: 800px){
+
+
+    h2 {
+        font-size: 6vw;
+        margin-bottom: 5px;
+    }
+    h3{
+      font-family: "Gotham";
+      font-size: 2vw;
+      color: rgb(16, 10, 77);
+      margin-bottom: 5px;
+    }
+    h4{
+    
+
+      font-size: 2vw;
+      margin-left:20px;
+  }
+    p{
+        font-family: "Montserrat";
+        font-size: 2vw;
+        letter-spacing: 0.3vw;
+        margin-left:20px;
+    }
+  }
+  @media (max-width: 500px){
+    .ctn-talks{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 90vw;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .ctn-talks div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 90%;
+    text-align: left;
+  }
+    h3{
+      font-family: "Gotham";
+      font-size: 4vw;
+      color: rgb(16, 10, 77);
+      margin-bottom: 5px;
+    }
+    h4{
+    
+      width: 80vw;
+      font-size: 3vw;
+      margin-left:20px;
+  }
+    p{
+        font-family: "Montserrat";
+        font-size: 2.5vw;
+        letter-spacing: 0.3vw;
+        margin-left:20px;
+    }
+    img{
+      width: 80vw;
+    }
+  }

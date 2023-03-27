@@ -1,0 +1,74 @@
+.particles-js-canvas-el {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(../assets/Fuentes/Bebas-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url(../assets/Fuentes/GothamBold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url(../assets/Fuentes/GothamBook.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans Light";
+    src: url(../assets/Fuentes/OpenSans-VariableFont.ttf);
+    font-weight:bolder;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+@media (max-width: 1100px) {
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:190px;
+        right:10px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+}
+
+.seleccion{
+
+  display: flex;
+  justify-content: right;
+  font-family: "Montserrat";
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  align-items: flex-end;
+  right: 0;
+  top: 0;
+}

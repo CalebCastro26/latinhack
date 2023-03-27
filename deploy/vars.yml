@@ -1,0 +1,5 @@
+dev:
+  DEPLOY_REGION: "us-east-2"
+  
+prod:
+  DEPLOY_REGION: ""

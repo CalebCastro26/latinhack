@@ -1,0 +1,177 @@
+{
+    "QUIENESSOMOS": "QUEM SOMOS",
+    "PREMIOS": "PRÊMIOS",
+    "CRONOGRAMA": "LINHA DO TEMPO",
+    "RESULTADOS": "RESULTADOS",
+    "BASES": "BASES",
+    "FAQ": "FAQ",
+    "CYBERSECURITY": "CÍBERSEGURANÇA",
+    "PERIODO": "Presencialmente de 22 de maio a 2 de junho",
+    "INSCRÍBETE": "INSCREVER-SE",
+    "INSCRIPCIÓN": "INSCRIÇÃO",
+    "NOSOTROS": "NÓS",
+    "POLITICA": "© 2022 - CSTI Corp. Política de Privacidade do Site",
+    "APOYO": "COM O APOIO DE",
+    "DESCRIPCIÓN": "A CSTI Corp em colaboração com a SAP University Alliance e a UPC criaram o ULatinHack, um evento que visa reunir jovens promissores que buscam criar e promover soluções inovadoras com a ajuda da tecnologia.",
+    "DESCRIPCIÓN1": "Nós os desafiamos a se apropriar de seu aprendizado, sair de sua zona de conforto e gerar suas próprias soluções aplicáveis, econômicas e inovadoras.",
+    "DESCRIPCIÓN2": "!Prepare-se para potencializar suas ideias com tecnologia!",
+    "CASOS": "CASOS DE USO",
+    "EMPRESARIAL": "Capture the Flag (CTF): Cybersecurity",
+    "EDUCATIVO": "EDUCACIONAL",
+    "RESPONSABILIDAD": "RESPONSABILIDADE SOCIAL",
+    "SOSTENIBILIDAD": "SUSTENTABILIDADE",
+    "VER": "VER MAIS",
+    "MARÍA": "Gerente Regional SAP University Alliances - América Latina e Caribe, Espanha e Portugal na SAP SE",
+    "INSCRIPCIONES": "INSCRIÇÕES",
+    "GRACIAS": "Obrigado pelo seu interesse no ULatinHack 2022, as inscrições já foram encerradas, esperamos por você no ULatinHack 2023 :)",
+    "PREMIOS_PRINCIPALES": "PRÊMIOS PRINCIPAIS",
+    "PRIMER_PUESTO": "1er puesto -  DAEBAK",
+    "UPC": "Universidade Peruana de Ciências Aplicadas (UPC)",
+    "SEGUNDO_PUESTO": "2º lugar - Equipe UFRO-E",
+    "FRONTERA":"universidade da fronteira",
+    "TERCER_PUESTO": "3º lugar - AFEMA",
+    "MADERO":"Universidade Madero",
+    "PREMIOS_SEGUNDARIOS": "PRÊMIOS SECUNDÁRIOS",
+    "MEJOR_USO": "Melhor uso do BTP",
+    "AFEMA": "APHEMA",
+    "CREATIVO": "Nome do produto mais criativo",
+    "TEAM": "Equipe UFRO-E",
+    "COMPLETO": "Aplicativo com desenvolvimento mais completo",
+    "RETDEV": "RetDev",
+    "SAPCAI": "Uso mais criativo do serviço SAP CAI",
+    "EDUWARE": "Eduware",
+    "AMERICA": "Universidade das Américas",
+    "DEMO": "Melhor Apresentação de Demonstração",
+
+    "DESCRIPCION_1": "CSTI Corp em colaboração com SAP Next Gen e a Universidade Peruana de Ciências Aplicadas (UPC) compõem o comitê organizador do ULatinHack, um hackathon que conta com a participação de mais de 10 universidades da LATAM e da Espanha.",
+    "DESCRIPCION_2": "A ULatinHack nasceu com o objetivo de promover e apoiar soluções inovadoras por estudantes universitários, aplicando diferentes ferramentas e tecnologias, que incluem SAP Analytics Cloud, Front-end (SAP UI 5), Back-end (Cloud Foundry Runtime), Chatbot, iRPA, Appgyver, Business Case e Integração.",
+    "DESCRIPCION_3": "Dentro do roteiro, serão realizadas 8 Tech Talks:",
+    "DESCRIPCION_4": "Design Thinking, SAP Cloud Application Programming Model, Elevator pitch, SAP Analytics Cloud, Business Model Canvas, Integration, iRPA e Chatbot, isso com o objetivo de fornecer as ferramentas necessárias aos participantes antes do evento.",
+    "DESCRIPCION_5": "Os participantes devem trabalhar em equipes de 3 a 5 pessoas. Terminado o evento, as soluções propostas serão avaliadas para a escolha de 3 iniciativas vencedoras, com possibilidade de serem desenvolvidas a nível empresarial/social.",
+
+
+    "PDESCRIPCION":{
+
+        "PUESTO": "Primeiro, segundo e terceiro lugar.",
+        "CATEGORIA": "Categorias por excepcionalidade, bolsas, estágios,",
+        "SUSCRIPCIONES": "assinaturas e muitos mais prêmios"
+    },
+
+    "PRIMERO":{
+        "1er": "1er lugar",
+        "TRAINE": "Programa de Trainees CSTI.",
+        "WINNER": "Distintivo de vencedor",
+        "CERTIFICACION": "Certificação de participação.",
+        "BECAS": "Bolsas Flex - UPC.",
+        "SUSCRIPCION": "Assinatura perpétua dos cursos aprendeconjoe.com",
+        "VOUCHER": "Voucher de Certificação SAP"
+    },
+    
+    "SEGUNDO":{
+        "2er": "2er lugar",
+        "SECOND": "Distintivo de segundo lugar",         
+        "CERTIFICACION": "Certificação de participação.",
+        "BECAS": "Bolsas Flex - UPC.",
+        "SUSCRIPCION": "Assinatura perpétua dos cursos aprendeconjoe.com",
+        "VOUCHER": "Voucher de Certificação SAP"
+    },
+
+    "TERCERO":{
+        "3er": "3er lugar",
+        "THIRD": "Distintivo de tercer lugar.",         
+        "CERTIFICACION": "Certificação de participação.",
+        "VOUCHER": "Voucher de Certificação SAP"
+    },
+
+    "SEGUNDARIOS":{
+        "MEJOR_USO": "Melhor uso do BTP",
+        "CERTIFICACION": "Certificação de participação.",
+        "SUSCRIPCION": "Assinatura Full Alura",
+        "CREATIVO": "Nome do produto mais criativo",
+        "COMPLETO": "Aplicativo com desenvolvimento mais completo",
+        "SAPCAI": "Uso mais criativo do serviço SAP CAI",
+        "DEMO": "Melhor Apresentação de Demonstração",
+        "TODOS": "Para todos os participantes"
+    },
+
+    "FRECUENTES":{
+        "HACKATHON": "O que é ULatinHack?",
+        "DESCRIPCION_1": "CSTI Corp em colaboração com SAP Next Gen e a Universidade Peruana de Ciências Aplicadas (UPC) compõem",
+        "DESCRIPCION_2": "a comissão organizadora do ULatinHack, um hackathon com a participação de mais de 10",
+        "DESCRIPCION_3": "universidades na LATAM e na Espanha.",
+
+        "DESCRIPCION_4": "A ULatinHack nasceu com o objetivo de promover e apoiar soluções inovadoras por parte dos alunos",
+        "DESCRIPCION_5": "estudantes universitários, aplicando diferentes ferramentas e tecnologias, incluindo SAP Analytics Cloud,",
+        "DESCRIPCION_6": "Front-end (SAP UI 5), Back-end (Cloud Foundry Runtime), Chatbot, iRPA, Appgyver, Business Case e",
+        "DESCRIPCION_7": "Integração.",
+        
+        "DESCRIPCION_8": "Dentro do roteiro, serão realizadas 8 Tech Talks:",
+        "DESCRIPCION_9": "Design Thinking, SAP Cloud Application Programming Model, Elevator pitch, SAP Analytics Cloud, Business Model Canvas, Integration, iRPA e Chatbot, isso com o objetivo de fornecer as ferramentas necessárias aos participantes antes do evento.",
+        "DESCRIPCION_10": "Os participantes devem trabalhar em equipes de 3 a 5 pessoas. Terminado o evento, as soluções propostas serão avaliadas para a escolha de 3 iniciativas vencedoras, com possibilidade de serem desenvolvidas a nível empresarial/social.",
+
+        "PARTICIPACION": "Como posso participar?",
+        "DPARTICIPACION": "Você pode se inscrever em seu equipamento através de seu coordenador universitário, e obter os dados de contato na página de inscrição no menu.",
+
+        "EVENTO": "É um evento presencial ou online?",
+        "DEVENTO": "É um evento 100% online",
+
+        "COSTO": "Tem algum custo?",
+        "DCOSTO": "Não, é um evento totalmente gratuito.",
+
+        "PROFESORES": "A minha equipa pode integrar professores?",
+        "DPROFESORES": "Sim, cada equipe pode contar com a participação de",
+        "DPROFESORES1": "uma",
+        "DPROFESORES2": "assessor",
+
+        "CODIFICAR": "Preciso saber codificar para participar?",
+        "DCODIFICAR": "Não é necessário, incentivamos equipes multidisciplinares. Além disso, teremos recursos, incluindo workshops e orientação virtual para ajudá-lo a entender melhor as tecnologias para começar.",
+
+        "PROYECTOS": "Que tipo de projetos serão apresentados?",
+        "DPROYECTOS": "As áreas de foco incluem aplicativos iOS ou Android, aplicativos da Web, RPA e Chatbot. Para cada tecnologia teremos palestras nas quais você terá código para reutilizar durante o HackDay.",
+
+        "CONSISTE": "Do que se trata o hackathon?",
+        "DCONSISTE": "O hackathon consiste na participação de várias equipas ('hackers') que irão trabalhar em equipas de 3 a 5 pessoas durante 24 horas para criar, prototipar ou codificar projetos ('hacks') que resolvam um dos desafios do evento. Existem workshops e mentores para guiá-lo ao longo do caminho. Você traz suas ideias e nós te ajudamos ao longo do caminho.",
+
+        "PREGUNTA": "Não estou encontrando minha dúvida aqui...",
+        "DPREGUNTA_1": "Se você tem algo mais em mente, envie para",
+        "DPREGUNTA_2": "ulatinhack@csticorp.biz",
+
+        "NIDEA": "E se eu não tiver uma equipe ou uma ideia?",
+        "DNIDEA_1": "Não se preocupe, a maioria das pessoas não tem isso para começar! Nesse caso, você pode entrar em contato com o coordenador de sua universidade clicando em",
+        "DNIDEA_2": "aquí",
+        "DNIDEA_3": "e ele vai te ajudar a formar uma equipe multidisciplinar com pessoas que também não tem equipe."
+        
+    },
+
+    "TECNOLOGIAS":{
+        "CLOUD": "Modelo de programação de aplicativos em nuvem",
+        "FOUNDRY": "Tempo de execução do Cloud Foundry"
+    },
+
+    "CHARLAST":{
+        "TECHTALKS": "CONVERSAS TÉCNICAS",
+        "MARÍA": "Gerente Regional SAP University Alliances - América Latina e Caribe, Espanha e Portugal na SAP SE",
+        "TMARÍA": "DESIGN THINKING",
+        "GABRIEL": "SAP University Alliances",
+        "TGABRIEL1": "América latina",
+        "TGABRIEL2": "PITCH DO ELEVADOR",
+        "JESUS": "Diretor de Maestria e Programa, Tec Monterrey",
+        "TJESUS": "SAP ANALYTICS CLOUD",
+        "JOEL": "Especialista em BTP e Analytics",
+        "TJOEL1": "SEIVA",
+        "TJOEL2": "IRPA",
+        "JHON": "Gerente de Soluções",
+        "TJHON1": "SAP Colômbia",
+        "TJHON2": "CHATBOT",
+        "PEDRO": "Diretor de Sustentabilidade, SAP América Latina e Caribe, Dubai",
+        "TPEDRO": "SOSTENIBILIDADE",
+        "ILLARI": "Desenvolvedor Full Stack",
+        "TILLARI1": "CSTI Corp",
+        "TILLARI2": "APPGYVER",
+        "RODRIGO": "Ativação do ecossistema SAP BTP ",
+        "TRODRIGO1": "Líder de Execução para LAC",
+        "TRODRIGO2": " APLICATIVO SAP CLOUD",
+        "TRODRIGO3": "MODELO DE PROGRAMAÇÃO" 
+    }
+}
+  

@@ -1,0 +1,22 @@
+<div class="ctn-dialog">
+    <h1 mat-dialog-title>Datos de la Universidad</h1>
+    <div mat-dialog-content>
+       <div class="ctn-university-logo">
+        <img src='{{ data.image }}' >
+        <div>
+            <h2><b>{{data.name}}</b></h2>
+            <h3>{{data.completeName}}</h3>
+           </div>
+       </div>
+
+
+      
+       <p>Coordinador académico:</p>
+       <p>Nombre: {{data.coordinator}}</p>
+       <p>Correo: {{data.email}}</p>
+    </div>
+
+    <div mat-dialog-actions>
+        <button mat-button (click)="cancelar()">Cerrar</button>
+    </div>
+</div>
