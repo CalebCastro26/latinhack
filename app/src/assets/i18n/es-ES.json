@@ -15,7 +15,7 @@
     "DESCRIPCIÓN": "CSTI Corp en colaboración con SAP University Alliance y UPC crearon ULatinHack, un evento que tiene por objetivo reunir jóvenes promesas que buscan crear e impulsar soluciones innovadoras con ayuda de la tecnología.",
     "DESCRIPCIÓN1": "Los retamos a que se apropien de su aprendizaje, salgan de su zona de confort y generen sus propias soluciones aplicables, costo-eficientes e innovadoras.",
     "DESCRIPCIÓN2": "¡Prepárate para impulsar tus ideas con tecnología!",
-    "CASOS": "CASOS DE USO",
+    "CASOS": "CASO DE USO",
     "EMPRESARIAL": "Capture the Flag (CTF): Cybersecurity",
     "EDUCATIVO": "EDUCATIVO",
     "RESPONSABILIDAD": "RESPONSABILIDAD SOCIAl",
@@ -24,7 +24,7 @@
     "MARÍA": "SAP University Alliances Regional Manager - Latin America & Caribbean, Spain & Portugal at SAP SE",
     "INSCRIPCIONES": "INSCRIPCIONES",
     "GRACIAS": "Gracias por tu interés en ULatinHack 2022, las inscripciones ya han concluído, te esperamos en ULatinHack 2023 :)",
-    "PREMIOS_PRINCIPALES": "PREMIOS PRINCIPALES",
+    "PREMIOS_PRINCIPALES": "PREMIOS",
     "PRIMER_PUESTO": "1er puesto -  DAEBAK",
     "UPC": "Universidade Peruana de Ciencias Aplicadas (UPC)",
     "SEGUNDO_PUESTO": "2do puesto - Team UFRO-E",
@@ -171,6 +171,11 @@
         "TRODRIGO1": "Execution Lead for LAC",
         "TRODRIGO2": "SAP CLOUD APPLICATION",
         "TRODRIGO3": "PROGRAMMING MODEL"
+    },
+
+    "CASO":{
+      "CIBER": "Ciberseguridad",
+      "DESCRIPCIONCIBER": "Los ataques de ransomware pueden ser devastadores para los individuos y organizaciones ya que pueden causar pérdidas financieras significativas y la interrupción de las operaciones normales. En muchos casos, las víctimas están obligadas a pagar el rescate o se arriesgan a perder el acceso a datos valiosos de manera permanente"
     }
 
 }
