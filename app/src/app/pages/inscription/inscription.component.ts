@@ -60,7 +60,7 @@ export class InscriptionComponent implements OnInit {
       universidadId:['',Validators.required],
       tituloSolucion:['',Validators.required],
       descripcionSolucion:['',Validators.required],
-      nombreEquipo:['',Validators.required],
+      nombreEquipo:['',Validators.required,Validators.pattern('a-zA-ZñÑá-úÁ-Ú')],
       participantes:[[],[Validators.required]]
     });
   }

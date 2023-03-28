@@ -1,4 +1,4 @@
-<h2 mat-dialog-title>Integrantes</h2>
+<h2 mat-dialog-title>{{'INSCRIPCION.GRUPO' | translate}}</h2>
 
 <mat-dialog-content>
     <form [formGroup]="registrationForm">
@@ -7,24 +7,24 @@
                 (Representante del equipo)</mat-slide-toggle>-->
 
           <mat-form-field appearance="fill">
-            <mat-label>(Representante del equipo)</mat-label>
+            <mat-label>{{'INSCRIPCION.REPRESENTANTE' | translate}}</mat-label>
             <input formControlName="teamLeader" matInput>
           </mat-form-field>
         </div>
 
         <div class="two-rows">
             <mat-form-field appearance="fill">
-                <mat-label>Nombres completos (*)</mat-label>
+                <mat-label>{{'INSCRIPCION.COMPLETO' | translate}}</mat-label>
                 <input formControlName="nombreCompleto" matInput>
             </mat-form-field>
 
 
             <mat-form-field appearance="fill">
-                <mat-label>E-mail (*) </mat-label>
+                <mat-label>{{'INSCRIPCION.CORREO' | translate}} </mat-label>
                 <input formControlName="email" matInput type="email">
                 <mat-error class="text-danger"
                     *ngIf="registrationForm.controls.email.touched && registrationForm.controls.email.errors?.email">
-                    Colocar correo válido
+                    {{'INSCRIPCION.COLOCAR' | translate}}
                 </mat-error>
             </mat-form-field>
         </div>
@@ -34,31 +34,31 @@
 
         <div class="three-rows">
             <mat-form-field appearance="fill">
-                <mat-label>Carrera(*)</mat-label>
+                <mat-label>{{'INSCRIPCION.PROFESION' | translate}}</mat-label>
                 <input formControlName="carrera" matInput>
             </mat-form-field>
             <mat-form-field appearance="fill">
-                <mat-label>Nombre coordinador de carrera (*)</mat-label>
+                <mat-label>{{'INSCRIPCION.COORDINADOR' | translate}}</mat-label>
                 <input formControlName="nombreCoordinador" matInput>
             </mat-form-field>
             <mat-form-field appearance="fill">
-                <mat-label>Correo coordinador de carrera (*)</mat-label>
+                <mat-label>{{'INSCRIPCION.CORREOCOR' | translate}}</mat-label>
                 <input formControlName="correoCoordinador" matInput>
                 <mat-error class="text-danger"
                     *ngIf="registrationForm.controls.correoCoordinador.touched && registrationForm.controls.correoCoordinador.errors?.email">
-                    Colocar correo válido
+                    {{'INSCRIPCION.COLOCAR' | translate}}
                 </mat-error>
             </mat-form-field>
         </div>
         <div class="two-rows">
             <mat-form-field appearance="fill">
-                <mat-label>Url Linkedin</mat-label>
+                <mat-label>{{'INSCRIPCION.URL' | translate}}</mat-label>
                 <input formControlName="linkedin" matInput>
             </mat-form-field>
         </div>
     </form>
     <div class="add-btn">
-        <button  mat-raised-button (click)="addParticipant()"id="add">{{buttonName}}</button>
-        <button mat-raised-button color="warn" (click)="close()">Cerrar</button>
+        <button  mat-raised-button (click)="addParticipant()"id="add">{{'INSCRIPCION.GRUPO' | translate}}</button>
+        <button mat-raised-button color="warn" (click)="close()">{{'INSCRIPCION.CLOSE' | translate}}</button>
     </div>
 </mat-dialog-content>

@@ -5,8 +5,8 @@
     "RESULTADOS": "RESULTADOS",
     "BASES": "BASES",
     "FAQ": "FAQ",
-    "CYBERSECURITY": "CYBERSECURITY",
-    "PERIODO": "Presencial del 22 de mayo al 2 junio",
+    "CYBERSECURITY": "CIBERSEGURIDAD",
+    "PERIODO": "30 de Mayo al 02 de Junio",
     "INSCRÍBETE": "INSCRÍBETE",
     "INSCRIPCIÓN": "INSCRIPCIÓN",
     "NOSOTROS": "NOSOTROS",
@@ -94,6 +94,7 @@
     },
 
     "FRECUENTES":{
+
         "HACKATHON": "¿Qué es ULatinHack?",
         "DESCRIPCION_1": "CSTI Corp en colaboración con SAP Next Gen y la Universidad Peruana de Ciencias Aplicadas (UPC) conforman",
         "DESCRIPCION_2": "el comité organizador de ULatinHack, una hackathon que cuenta con la participación de más de 10",
@@ -174,8 +175,36 @@
     },
 
     "CASO":{
-      "CIBER": "Ciberseguridad",
-      "DESCRIPCIONCIBER": "Los ataques de ransomware pueden ser devastadores para los individuos y organizaciones ya que pueden causar pérdidas financieras significativas y la interrupción de las operaciones normales. En muchos casos, las víctimas están obligadas a pagar el rescate o se arriesgan a perder el acceso a datos valiosos de manera permanente"
+      "CIBER": "Iniciativa para mejorar la seguridad de aplicaciones web."
+    },
+
+    "INSCRIPCION":{
+      "EQUIPO": "Nombre de equipo (*)",
+      "UNIVERSIDAD": "Universidad (*)",
+      "EVENTO": "Evento (*)",
+      "ESCOGE": "Escoge a tus integrantes (1-5)",
+      "AÑADE": "Añadir integrante",
+      "NOMBRE": "Nombres",
+      "CARRERA": "Carrera",
+      "LEADER": "Team Leader",
+      "EDIT": "Editar",
+      "ELIMINA": "Eliminar",
+      "NO": "Aún no hay integrantes",
+      "INGRESA": "Ingresa el nombre de la solución",
+      "DESAFIO": "Desafío elegido (*)",
+      "TITULO": "Título de la solución (*)",
+      "DESCRIPCION": "Detalle de la solución (*)",
+      "REGISTRO_": "INSCRIBIRSE",
+      "GRUPO": "Integrantes",
+      "REPRESENTANTE": "(Representante del equipo)",
+      "COMPLETO": "Nombres completos (*)",
+      "CORREO": "E-mail (*)",
+      "PROFESION": "Carrera(*)",
+      "COORDINADOR":"Nombre coordinador de carrera (*)",
+      "CORREOCOR": "Correo coordinador de carrera (*)",
+      "COLOCAR": "Colocar correo válido",
+      "URL": "Url Linkedin",
+      "CLOSE": "Cerrar"
     }
 
 }

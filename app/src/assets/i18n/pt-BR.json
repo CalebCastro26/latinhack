@@ -6,7 +6,7 @@
     "BASES": "BASES",
     "FAQ": "FAQ",
     "CYBERSECURITY": "CÍBERSEGURANÇA",
-    "PERIODO": "Presencialmente de 22 de maio a 2 de junho",
+    "PERIODO": "30 de maio a 2 de junho",
     "INSCRÍBETE": "INSCREVER-SE",
     "INSCRIPCIÓN": "INSCRIÇÃO",
     "NOSOTROS": "NÓS",
@@ -176,7 +176,35 @@
 
 
     "CASO":{
-      "CIBER": "Cíber segurança",
-      "DESCRIPCIONCIBER": "Os ataques de ransomware podem ser devastadores para indivíduos e organizações, pois podem causar perdas financeiras significativas e interromper as operações normais. Em muitos casos, as vítimas são forçadas a pagar o resgate ou correm o risco de perder permanentemente o acesso a dados valiosos."
+      "CIBER": "Iniciativa para melhorar a segurança de aplicações web."
+    },
+    "INSCRIPCION":{
+      "EQUIPO": "nome do time (*)",
+      "UNIVERSIDAD": "Universidade (*)",
+      "EVENTO": "Evento (*)",
+      "ESCOGE": "Escolha seus membros (1-5)",
+      "AÑADE": "adicionar membro",
+      "NOMBRE": "nomes",
+      "CARRERA": "Carreira",
+      "LEADER": "líder da equipe",
+      "EDIT": "Editar",
+      "ELIMINA": "Eliminar",
+      "NO": "Nenhum membro ainda",
+      "INGRESA": "Digite o nome da solução",
+      "DESAFIO": "Desafio escolhido (*)",
+      "TITULO": "Título da solução (*)",
+      "DESCRIPCION": "Detalhe da solução (*)",
+      "REGISTRO_": "REGISTRO",
+      "GRUPO": "MEMBROS",
+      "REPRESENTANTE": "(Representante da equipe)",
+      "COMPLETO": "Nomes completos (*)",
+      "CORREO": "E-mail (*)",
+      "PROFESION": "Carreira (*)",
+      "COORDINADOR":"Nome do coordenador da corrida (*)",
+      "CORREOCOR": "E-mail do coordenador de carreira (*)",
+      "COLOCAR": "colocar e-mail válido",
+      "URL": "URL do LinkedIn",
+      "CLOSE": "Fechar"
     }
+
 }

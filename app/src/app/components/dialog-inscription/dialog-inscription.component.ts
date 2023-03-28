@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class DialogInscriptionComponent implements OnInit {
   @ViewChild('country') country: HTMLInputElement | undefined;
-  buttonName = "Añadir integrante"
+  buttonName = "Editar integrante"
   selected2:any
   optionsCountry: any[] = [];
   filteredOptionsCountry: any;

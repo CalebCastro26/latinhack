@@ -1,15 +1,21 @@
 <app-secondary-header></app-secondary-header>
     <div class="ctn-use-cases">
-        <h2>CASOS DE USO</h2>
+        <h2>CASO DE USO</h2>
 
         <div class="ctn-cases">
             <div class="case1">
                 <img class="ctn-icon" src="../../../assets/Imagenes/Mundo.png">
                 <h3>{{'EMPRESARIAL' | translate}}</h3>
-                <button mat-flat-button (click)="openDialog(0)">{{'VER' | translate}}</button>
+                <!--<button mat-flat-button (click)="openDialog(0)">{{'VER' | translate}}</button>-->
+                <div class="description">
+                  <p>{{'CASO.CIBER'| translate}}</p>
+              </div>
                 <br>
             </div>
         </div>
+    </div>
+    <div id="ctn-border">
+
     </div>
     <br><br>
 <app-footer></app-footer>

@@ -2,7 +2,7 @@
     background-image: url("../../../assets/Imagenes/Logos\ y\ Portadas_Mesa\ de\ trabajo\ 1.png");
     background-size: 100% ;
     color: white;
-    text-align: center; 
+    text-align: center;
     align-items: center;
     height: 55vw;
 }
@@ -26,6 +26,7 @@ app-third-header{
     width: 10%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1%;
 }
 .title{
     margin-top: 8vw;
@@ -38,12 +39,15 @@ app-third-header{
     font-family: 'Gotham';
     font-size: 2.1vw;
     letter-spacing: 0.3vw;
+    padding-top: 1%;
+
 }
 .dates{
     margin-top: 1vw;
     font-family: 'Open Sans Light';
     font-size: 1.5vw;
     letter-spacing: 0.3vw;
+    padding-top: 1%;
 }
 .play-button{
     width: 6vw;
@@ -111,7 +115,7 @@ app-third-header{
     #btn-up button{
         width: 60px;
     height: 60px;
- 
+
     }
     app-header{
         display: none;
@@ -159,7 +163,7 @@ app-third-header{
       color: #00294c;
     }
 
-  
+
   }
   @media (max-width: 500px){
 

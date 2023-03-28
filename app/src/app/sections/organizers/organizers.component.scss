@@ -33,31 +33,56 @@ h3{
     flex-direction: row;
     gap: 20px;
     justify-content: center;
-    width: 80vw;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
 }
 .ctn-organizers img{
+  width:15vw;
+  height: 6.5vw;
+    padding: 5vw 4vw;
+    border-radius: 20px;
+     border: 1px solid rgb(189, 189, 189);
+
+    margin-bottom: 2vw;
+
+}
+
+.ctn-organizers1{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.ctn-organizers1 img{
   width:16vw;
   height: 6.5vw;
     padding: 5vw 4vw;
     border-radius: 20px;
-     border: 1px solid rgb(189, 189, 189); 
-  
+     border: 1px solid rgb(189, 189, 189);
+
     margin-bottom: 2vw;
- 
+
 }
+
 #upcImg{
-    width: 20vw;
+    width: 19vw;
     height: 6vw;
-    padding: 5.3vw 2vw;
+    padding: 5.25vw 2vw;
 }
 
 #delawareImg{
-    width: 20vw;
+    width: 19vw;
     height: 6vw;
-    padding: 5.3vw 2vw;
+    padding: 5.25vw 2vw;
 }
 #cstiImg{
     width: 17.5vw;
@@ -74,13 +99,13 @@ h3{
 #joeDayzLogo{
     width:16vw;
     height: 14vw;
-  
+
 }
 #sapLogo{
     width:12vw;
     height: 6vw;
-    
-  
+
+
 }
 .ctn-sponsors{
     display: flex;
@@ -122,26 +147,57 @@ h3{
         height: 13vw;
         border-radius: 15px;
         margin-bottom: 2vw;
-     
+
     }
-    
+
+    .ctn-organizers1{
+
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: center;
+      width: 80vw;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .ctn-organizers1 img{
+      width:16vw;
+      height: 6.5vw;
+        padding: 3vw 3vw;
+        border-radius: 20px;
+         border: 1px solid rgb(189, 189, 189);
+
+        margin-bottom: 5vw;
+
+    }
+
     #upcImg{
         width:60%;
         padding: 7vw 8vw;
         height: 9vw;
     }
+
+    #delawareImg{
+    width: 60%;
+    padding: 5.3vw 2vw;
+    }
+
+
     #cstiImg{
         width:60%;
         padding: 5vw 8vw;
         height: 14vw;
-    } 
+    }
     .ctn-sponsors{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
         width: 80vw;
-        
+
         margin-left: auto;
         margin-right: auto;
     }
@@ -157,18 +213,18 @@ h3{
     #joeDayzLogo{
         width: 100%;
         height: 17vw;
-      
+
     }
     #cstiLogo2{
         width: 100%;
         height: 18vw;
-      
+
     }
     #sapLogo{
         width: 100%;
         height: 10vw;
-        
-      
+
+
     }
-  
+
   }
