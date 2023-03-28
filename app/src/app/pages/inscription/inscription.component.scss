@@ -6,7 +6,7 @@
   }
   .btn-dialog{
     margin-top: 20px;
-
+    width: 30%;
   }
   /* Absolute Center Spinner */
 .loading-indicator {
@@ -52,21 +52,27 @@
  color: #00294c;
   }
  .ctn-table{
-   width: 90%;
+   width: 70%;
+   margin: 0 auto;
  }
 
  .challenge{
-
-   margin-top: 40px;
-   width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 70%;
 
  }
  .challenge form{
   display: flex;
-  width: 45%;
-  justify-content: space-between;
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
   flex-direction: column;
+ }
 
+ .section{
+  margin-top: 0 !important;
  }
 
 
@@ -75,6 +81,12 @@
   border-top: none;
    width: 100%;
  }
+
+ .ctn-table-scroll{
+  width: 70%;
+  margin: 0 auto;
+ }
+
  form{
    width: 100%;
  }
@@ -131,10 +143,10 @@
   h2 {
     margin-top: 2vw;
     font-family: "Gotham";
-    font-size: 2.5vw;
+    font-size: 2rem;
     letter-spacing: 1vw;
     color: rgb(16, 10, 77);
-    text-align: left;
+    text-align: center;
   }
   .ctn-universities{
       display: flex;
@@ -176,11 +188,11 @@ p{
 
 @media (max-width: 800px) {
   .challenge{
-    width: 10%;
+    width: 100%;
+    margin-left: 7%;
   }
   .challenge form{
-   width: 10%;
-
+   width: 100%;
   }
   .team{
     display: flex;
@@ -195,6 +207,7 @@ p{
   .ctn-table{
     margin-top: 5vw;
     width: 100%;
+    margin-left: 7%;
   }
   .table-empty{
 
