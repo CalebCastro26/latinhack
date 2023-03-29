@@ -12,7 +12,7 @@
       <form [formGroup]="registraFormInscription">
         <mat-form-field appearance="fill">
           <mat-label>Nombre del equipo (*)</mat-label>
-          <input formControlName="nombreEquipo" matInput>
+          <input formControlName="nombreEquipo" matInput maxlength="50">
       </mat-form-field>
 
 
@@ -136,11 +136,11 @@
 
            <mat-form-field appearance="fill">
               <mat-label>Título de la solución (*)</mat-label>
-             <input formControlName="tituloSolucion" matInput>
+             <input formControlName="tituloSolucion" matInput maxlength="100">
           </mat-form-field>
           <mat-form-field appearance="fill">
               <mat-label>Detalle de la solución (*)</mat-label>
-             <textarea formControlName="descripcionSolucion" matInput></textarea>
+             <textarea formControlName="descripcionSolucion" matInput maxlength="2000"></textarea>
           </mat-form-field>
         </form>
     </div>
