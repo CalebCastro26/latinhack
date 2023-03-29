@@ -32,7 +32,7 @@ export class DialogInscriptionComponent implements OnInit {
   isoCountry: string | undefined;
   other = false;
   spinner = false;
- 
+
   myControl = new FormControl();
   constructor(
     @Inject(MAT_DIALOG_DATA) public data: any,
@@ -62,21 +62,17 @@ export class DialogInscriptionComponent implements OnInit {
         nombreCompleto: this.data.dataSource[this.data.index].nombreCompleto,
         carrera: this.data.dataSource[this.data.index].carrera,
         email: this.data.dataSource[this.data.index].email,
-        nombreCoordinador:
-          this.data.dataSource[this.data.index].nombreCoordinador,
-        correoCoordinador:
-          this.data.dataSource[this.data.index].correoCoordinador,
+        nombreCoordinador:this.data.dataSource[this.data.index].nombreCoordinador,
+        correoCoordinador:this.data.dataSource[this.data.index].correoCoordinador,
         linkedin: this.data.dataSource[this.data.index].linkedin,
         confirmation: true,
         index: this.data.dataSource[this.data.index].index,
       });
-      this.registrationForm.addControl(
-        'nameOther',
-        new FormControl('', Validators.required)
-      );
-      this.registrationForm.patchValue({
-        nameOther: this.data.dataSource[this.data.index].nameOther,
-      });
+      //this.registrationForm.addControl('nameOther',new FormControl('', Validators.required)
+      //);
+      //this.registrationForm.patchValue({
+        //nameOther: this.data.dataSource[this.data.index].nameOther,
+      //});
     }
   }
 

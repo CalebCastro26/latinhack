@@ -6,7 +6,7 @@
   }
   .btn-dialog{
     margin-top: 20px;
-    width: 30%;
+    width: 100%;
   }
   /* Absolute Center Spinner */
 .loading-indicator {
@@ -52,19 +52,20 @@
  color: #00294c;
   }
  .ctn-table{
-   width: 70%;
+   width: 30%;
    margin: 0 auto;
  }
 
  .challenge{
   margin: 0 auto;
-  margin-top: 50px;
-  width: 70%;
+  margin-top: 40px;
+  width: 75%;
 
  }
  .challenge form{
   display: flex;
-  width: 70%;
+  width: 40%;
+  //width: 70%;
   justify-content: center;
   margin: 0 auto;
   margin-top: 50px;
@@ -72,7 +73,14 @@
  }
 
  .section{
-  margin-top: 0 !important;
+  width: 75%;
+  margin-top: auto;
+ }
+
+ .Escoger{
+  margin: 0 auto;
+  width: 30%;
+  padding-top: 1%;
  }
 
 
@@ -83,7 +91,7 @@
  }
 
  .ctn-table-scroll{
-  width: 70%;
+  width: 30%;
   margin: 0 auto;
  }
 
@@ -137,14 +145,17 @@
     color: rgb(16, 10, 77);
   }
   .ctn-inscription{
-      margin-left: 80px;
-      margin-top: 20px;
+       margin-left: 80px;
+       margin-top: 20px;
+       padding: auto;
+      //width: 30%;
+      //margin: 0 auto;
   }
   h2 {
     margin-top: 2vw;
     font-family: "Gotham";
-    font-size: 2rem;
-    letter-spacing: 1vw;
+    font-size: 3rem;
+    letter-spacing: 0.5vw;
     color: rgb(16, 10, 77);
     text-align: center;
   }
@@ -186,7 +197,7 @@ p{
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .challenge{
     width: 100%;
     margin-left: 7%;
@@ -194,6 +205,11 @@ p{
   .challenge form{
    width: 100%;
   }
+
+  .challenge p{
+    width: 100%;
+  }
+
   .team{
     display: flex;
     flex-direction: column;
@@ -207,8 +223,10 @@ p{
   .ctn-table{
     margin-top: 5vw;
     width: 100%;
+    margin: 0 auto;
     margin-left: 7%;
   }
+
   .table-empty{
 
      border: none;
@@ -248,5 +266,9 @@ p{
   .university-logo{
     width:80%;
   }
+
+  .Escoger{
+    width: 100%;
+   }
 
 }

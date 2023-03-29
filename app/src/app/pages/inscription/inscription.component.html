@@ -5,11 +5,11 @@
 <div class="ctn-inscription">
     <h2>{{'INSCRIPCIONES' | translate}}</h2>
 
-    <div class="challenge section">
-        <br><br><br>
-        <mat-divider></mat-divider>
-      <form [formGroup]="registraFormInscription">
 
+    <div class="challenge section">
+
+
+      <form [formGroup]="registraFormInscription">
         <mat-form-field appearance="fill">
           <mat-label>Nombre del equipo (*)</mat-label>
           <input formControlName="nombreEquipo" matInput>
@@ -50,6 +50,8 @@
         </div>
         <br>
 
+      </div>
+
 
         <div class="ctn-table-scroll">
             <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
@@ -72,7 +74,7 @@
                 <ng-container matColumnDef="symbol">
                     <th mat-header-cell *matHeaderCellDef> Team Leader </th>
                     <td mat-cell *matCellDef="let element">
-                        <div *ngIf="element.teamLeader === '1'; else elseBlock">
+                        <div *ngIf="element.teamLeader === true; else elseBlock">
                             <mat-icon>done</mat-icon>
                         </div>
                         <ng-template #elseBlock></ng-template>
@@ -109,16 +111,18 @@
             </div>
         </div>
 
-    </div>
+
 
 
    <!--Añadir integrante-->
 
+   <div class="Escoger">
+    <p>Escoge tu desafío. Puedes revisar los casos de uso <a href="/useCases" target="_blank">aquí</a></p>
+    <mat-divider></mat-divider>
+   </div>
 
    <!--Desafio-->
    <div class="challenge">
-        <p>Escoge tu desafío. Puedes revisar los casos de uso <a href="/useCases" target="_blank">aquí</a></p>
-        <mat-divider></mat-divider>
         <form [formGroup]="registraFormInscription">
           <mat-form-field appearance="fill">
 
