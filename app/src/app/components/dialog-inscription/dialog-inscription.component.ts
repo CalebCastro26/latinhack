@@ -32,6 +32,7 @@ export class DialogInscriptionComponent implements OnInit {
   isoCountry: string | undefined;
   other = false;
   spinner = false;
+ 
   myControl = new FormControl();
   constructor(
     @Inject(MAT_DIALOG_DATA) public data: any,
@@ -47,7 +48,7 @@ export class DialogInscriptionComponent implements OnInit {
     nombreCoordinador: ['', [Validators.pattern(/^[a-zA-ZÀ-ÿ\s]{5,40}$/), Validators.required]],
     correoCoordinador: ['', [Validators.pattern(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/), Validators.required]],
     linkedin: ['', Validators.pattern(/^(http(s)?:\/\/)?([\w]+\.)?linkedin\.com\/(pub|in|profile)\/([-a-zA-Z0-9]+)\/*/gm)],
-    teamLeader: ['', Validators.required],
+    teamLeader: [true, Validators.required],
     confirmation: true,
     index: '',
   });

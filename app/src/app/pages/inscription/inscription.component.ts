@@ -26,7 +26,7 @@ import { DialogInscriptionComponent } from '../../components/dialog-inscription/
 export interface PeriodicElement {
   name: string;
   career: string;
-  teamLeader: string;
+  teamLeader: boolean;
 }
 
 const ELEMENT_DATA: PeriodicElement[] = [];
@@ -87,7 +87,7 @@ export class InscriptionComponent implements OnInit {
     nombreCoordinador: [''],
     correoCoordinador: ['', Validators.required],
     linkedin: '',
-    teamLeader: ['', Validators.required],
+    teamLeader: [true, Validators.required],
   });
 
   getAutocompleteName(item: any) {
@@ -250,10 +250,10 @@ export class InscriptionComponent implements OnInit {
   }
 
   inscription() {
-    let team = 0;
+    let team = false;
     this.dataSource.forEach((item) => {
-      if (item.teamLeader === '1') {
-        team++;
+      if (item.teamLeader === true) {
+       team;
       }
     });
     if (this.dataSource.length > 0 && this.dataSource.length <= 5) {
@@ -309,7 +309,7 @@ export class InscriptionComponent implements OnInit {
           message: 'Ha añadido más de 5 integrantes. ',
         },
       });
-    } else if (team == 0) {
+    } else if (team == false) {
       this.dialog.open(GeneralDialogComponent, {
         data: {
           message: 'Añade como mínimo un team leader',
