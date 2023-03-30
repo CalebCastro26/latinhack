@@ -11,13 +11,13 @@
 
       <form [formGroup]="registraFormInscription">
         <mat-form-field appearance="fill">
-          <mat-label>Nombre del equipo (*)</mat-label>
+          <mat-label>{{'INSCRIPCION.EQUIPO' | translate}}</mat-label>
           <input formControlName="nombreEquipo" matInput maxlength="50">
       </mat-form-field>
 
 
       <mat-form-field appearance="fill">
-          <mat-label>Universidad (*) </mat-label>
+          <mat-label>{{'INSCRIPCION.UNIVERSIDAD' |   translate}} </mat-label>
           <mat-select formControlName="universidadId" (selectionChange)="selectUniversidad($event)">
               <mat-option *ngFor="let universidad of universities"  [value]="universidad.id">
                   {{universidad.nombre}}
@@ -27,7 +27,7 @@
 
 
       <mat-form-field appearance="fill">
-          <mat-label>Evento (*)</mat-label>
+          <mat-label>{{'INSCRIPCION.EVENTO' | translate}}</mat-label>
           <mat-select formControlName="eventoId" (selectionChange)="selectEvento($event)">
               <mat-option *ngFor="let evento of eventos" [value]="evento.id">
                 {{evento.nombreEvento}}
@@ -41,11 +41,11 @@
 
    <div class="ctn-table">
 
-        <p>Escoge a tus integrantes (1-5)</p>
+        <p>{{'INSCRIPCION.ESCOGE' | translate}}</p>
         <mat-divider></mat-divider>
         <div class="btn-dialog">
             <button mat-raised-button (click)="addParticipantInscription()">
-                <mat-icon>add</mat-icon>Añadir integrante
+                <mat-icon>add</mat-icon>{{'INSCRIPCION.AÑADE'| translate}}
             </button>
         </div>
         <br>
@@ -60,19 +60,19 @@
                           The actual rendered columns are set as a property on the row definition" -->
 
                  <ng-container matColumnDef="position">
-                    <th mat-header-cell *matHeaderCellDef> Nombres </th>
+                    <th mat-header-cell *matHeaderCellDef> {{'INSCRIPCION.NOMBRE'| translate}}</th>
                     <td mat-cell *matCellDef="let element"> {{element.name}} </td>
                 </ng-container>
 
 
             <ng-container matColumnDef="weight">
-                    <th mat-header-cell *matHeaderCellDef> Carrera </th>
+                    <th mat-header-cell *matHeaderCellDef> {{'INSCRIPCION.CARRERA' | translate}} </th>
                     <td mat-cell *matCellDef="let element"> {{element.career}} </td>
                 </ng-container>
 
 
                 <ng-container matColumnDef="symbol">
-                    <th mat-header-cell *matHeaderCellDef> Team Leader </th>
+                    <th mat-header-cell *matHeaderCellDef> {{'INSCRIPCION.LEADER' | translate}} </th>
                     <td mat-cell *matCellDef="let element">
                         <div *ngIf="element.teamLeader === true; else elseBlock">
                             <mat-icon>done</mat-icon>
@@ -86,13 +86,13 @@
                     <td mat-cell *matCellDef="let element; let i = index;">
                         <button mat-icon-button (click)="editParticipantInscription(i)" color="primary"
                             aria-label="Example icon button with a heart icon">
-                            <mat-icon>edit</mat-icon>
+                            <mat-icon>{{'INSCRIPCION.EDIT'| translate}}</mat-icon>
                         </button>
                     </td>
                 </ng-container>
 
                 <ng-container matColumnDef="delete">
-                    <th mat-header-cell *matHeaderCellDef> Eliminar </th>
+                    <th mat-header-cell *matHeaderCellDef> {{'INSCRIPCION.ELIMINA' | translate}} </th>
                     <td mat-cell *matCellDef="let element; let i = index;">
                         <button mat-icon-button (click)="delete(i)" color="warn"
                             aria-label="Example icon button with a heart icon">
@@ -106,18 +106,19 @@
             </table>
             <div class="table-empty" *ngIf="dataSource.length === 0">
                 <br>
-                <p style="color: rgb(102, 102, 102); font-size:small;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aún no hay integrantes
+                <p style="color: rgb(102, 102, 102); font-size:small;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{'INSCRIPCION.NO'| translate}}
                 </p>
             </div>
         </div>
 
 
+   <!--Añadir integrante
 
-
-   <!--Añadir integrante-->
+  <p>Escoge tu desafío. Puedes revisar los casos de uso <a href="/useCases" target="_blank">aquí</a></p>
+  -->
 
    <div class="Escoger">
-    <p>Escoge tu desafío. Puedes revisar los casos de uso <a href="/useCases" target="_blank">aquí</a></p>
+    <p>{{'INSCRIPCION.INGRESA' | translate}}</p>
     <mat-divider></mat-divider>
    </div>
 
@@ -126,7 +127,7 @@
         <form [formGroup]="registraFormInscription">
           <mat-form-field appearance="fill">
 
-            <mat-label>Desafío elegido (*)</mat-label>
+            <mat-label>{{'INSCRIPCION.DESAFIO'| translate}}</mat-label>
               <mat-select formControlName="desafioId" (selectionChange)="selectDesafio($event)">
                   <mat-option *ngFor="let desafio of desafios"  [value]="desafio.id">
                    {{desafio.tituloDesafio}}
@@ -135,17 +136,17 @@
           </mat-form-field>
 
            <mat-form-field appearance="fill">
-              <mat-label>Título de la solución (*)</mat-label>
+              <mat-label>{{'INSCRIPCION.TITULO' | translate}}</mat-label>
              <input formControlName="tituloSolucion" matInput maxlength="100">
           </mat-form-field>
           <mat-form-field appearance="fill">
-              <mat-label>Detalle de la solución (*)</mat-label>
-             <textarea formControlName="descripcionSolucion" matInput maxlength="2000"></textarea>
+              <mat-label>{{'INSCRIPCION.DESCRIPCION'| translate}}</mat-label>
+             <textarea formControlName="descripcionSolucion" matInput maxlength="5000"></textarea>
           </mat-form-field>
         </form>
     </div>
     <div style="display: flex; justify-content: center;">
-        <button mat-raised-button color="warn" style="margin-bottom: 20px;" (click)="inscription()"><mat-icon>task</mat-icon>&nbsp;INSCRIBIRSE</button>
+        <button mat-raised-button color="warn" style="margin-bottom: 20px;" (click)="inscription()"><mat-icon>task</mat-icon>&nbsp;{{'INSCRIPCION.REGISTRO_' | translate}}</button>
     </div>
 
     <!--

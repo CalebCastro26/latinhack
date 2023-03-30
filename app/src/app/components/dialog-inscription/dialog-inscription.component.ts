@@ -32,6 +32,8 @@ export class DialogInscriptionComponent implements OnInit {
   isoCountry: string | undefined;
   other = false;
   spinner = false;
+  t = 0;
+  e = 0;
 
   myControl = new FormControl();
   constructor(
@@ -95,16 +97,17 @@ export class DialogInscriptionComponent implements OnInit {
   close() {
     this.dialogRef.close();
   }
+
   addParticipant() {
-    console.log(this.registrationForm.value);
-    if (this.registrationForm.valid) {
-      this.dialogRef.close(this.registrationForm.value);
-    } else {
-      this.dialog.open(GeneralDialogComponent, {
-        data: {
-          message: 'Complete de manera correcta la información de inscripción',
-        },
-      });
-    }
+      console.log(this.registrationForm.value);
+      if (this.registrationForm.valid){
+        this.dialogRef.close(this.registrationForm.value)
+      }else{
+        this.dialog.open(GeneralDialogComponent, {
+          data: {
+            message: 'Complete de manera correcta la información de inscripción',
+          },
+        });
+      }
   }
 }

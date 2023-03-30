@@ -136,6 +136,8 @@ export class InscriptionComponent implements OnInit {
   }
 
   addParticipantInscription() {
+
+
     if (this.dataSource.length < 5) {
       let dialog = this.dialog.open(DialogInscriptionComponent, {
         height: '45%',
@@ -257,6 +259,7 @@ export class InscriptionComponent implements OnInit {
     });
   }
 
+
   inscription() {
     let team = 0;
     this.dataSource.forEach((item) => {
@@ -264,11 +267,8 @@ export class InscriptionComponent implements OnInit {
         team++;
       }
     });
-    if (
-      this.dataSource.length > 0 &&
-      this.dataSource.length <= 5 &&
-      team === 1
-    ) {
+    if (this.dataSource.length > 0 && this.dataSource.length <= 5) {
+
       let confirmation = this.dialog.open(DialogValidationComponent);
       confirmation.afterClosed().subscribe((result) => {
         if (result === true) {
